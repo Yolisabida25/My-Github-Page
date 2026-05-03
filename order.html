@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order - ShadeHub</title>
+</head>
+
+<body>
+
+<header>
+    <h1>ShadeHub</h1>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="gallery.html">Gallery</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="order.html">Order</a>
+    </nav>
+</header>
+
+<main>
+    <h2>Place Your Order</h2>
+
+    <form>
+        <label>Full Name:</label><br>
+        <input type="text" name="name" required><br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Phone Number:</label><br>
+        <input type="tel" name="phone" required><br><br>
+
+        <label>Select Sunglasses:</label><br>
+        <select name="product">
+            <option>Classic Black - P150</option>
+            <option>Gold Frame - P200</option>
+            <option>Luxury Shades - P250</option>
+        </select><br><br>
+
+        <label>Quantity:</label><br>
+        <input type="number" min="1" value="1"><br><br>
+
+        <label>Delivery Address:</label><br>
+        <textarea name="address"></textarea><br><br>
+
+        <button type="submit">Submit Order</button>
+    </form>
+</main>
+
+</body>
+</html>
